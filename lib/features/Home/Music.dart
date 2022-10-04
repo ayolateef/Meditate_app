@@ -111,7 +111,9 @@ class _MusicState extends State<Music> {
                 SizedBox(
                   height: 30.0.h,
                 ),
-                SvgPicture.asset(AppAsset.playIcons)
+                GestureDetector(
+                    onTap: (){},
+                    child: SvgPicture.asset(AppAsset.playIcons))
               ],),
           ),
         )
